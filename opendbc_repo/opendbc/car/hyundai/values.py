@@ -790,6 +790,13 @@ class CAR(Platforms):
     CarSpecs(mass=2055, wheelbase=2.90, steerRatio=16.0, tireStiffnessFactor=0.65),
     flags=HyundaiFlags.EV,
   )
+  KIA_EV4 = HyundaiCanFDPlatformConfig(
+    [
+      HyundaiCarDocs("KIA EV4 (CT1)", car_parts=CarParts.common([CarHarness.hyundai_n])),
+    ],
+    CarSpecs(mass=2055, wheelbase=2.90, steerRatio=16.0, tireStiffnessFactor=0.65),
+    flags=HyundaiFlags.EV,
+  )
 
 class Buttons:
   NONE = 0
